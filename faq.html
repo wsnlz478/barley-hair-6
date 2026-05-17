@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>植髮常見問題解答 | 費用·恢復期·副作用 | 大麥微針植髮醫院</title>
+    <meta name="description" content="解答植髮常見疑問。涵蓋植髮費用、恢復期、注意事項、可能副作用、毛囊存活率等熱門問題。大麥微針植髮醫院專業團隊為您提供全面、準確的植髮資訊。">
+    <meta name="keywords" content="植髮常見問題,植髮注意事項,植髮恢復期,植髮後遺症,植髮副作用,植髮費用,植髮FAQ">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="大麥微針植髮醫院">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="植髮常見問題解答 | 費用·恢復期·副作用 | 大麥微針植髮醫院">
+    <meta property="og:description" content="解答植髮常見疑問。涵蓋植髮費用、恢復期、注意事項、可能副作用、毛囊存活率等熱門問題。大麥微針植髮醫院專業團隊為您提供全面、準確的植髮資訊。">
+    <meta property="og:site_name" content="大麥微針植髮醫院">
+    <meta property="og:locale" content="zh_Hant">
+</head>
+<body>
+    <!-- 頁頭 -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="大麥微針植髮醫院">
+                    <span class="logo-text-desktop">大麥微針植髮醫院</span><span class="logo-text-mobile">大麥微針植髮</span>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="about.html">關於我們</a></li>
+                        <li><a href="services.html">服務項目</a></li>
+                        <li><a href="technology.html">技術介紹</a></li>
+                        <li><a href="doctors.html">醫師團隊</a></li>
+                        <li><a href="cases.html">案例展示</a></li>
+                        <li><a href="faq.html" class="active">常見問題</a></li>
+                        <li><a href="contact.html">聯絡我們</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero區域 -->
+    <section class="hero">
+        <div class="hero-slides" id="heroSlides">
+        <div class="hero-slide">
+            <img src="Banner/hero-17.jpg" alt="Hero 1">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h2>您需要的答案</h2>
+                    <p>查找關於植髮手術、費用、恢復、效果和國際患者護理的全面資訊。</p>
+                    <a href="contact.html" class="btn">免費諮詢</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slide">
+            <img src="Banner/hero-3.jpg" alt="Hero 2">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h2>透明與資訊豐富</h2>
+                    <p>關於FUE與FUT、價格、術後護理以及您的毛髮修復旅程預期的一切資訊。</p>
+                    <a href="contact.html" class="btn">免費諮詢</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slide">
+            <img src="Banner/hero-22.jpg" alt="Hero 3">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h2>專家指導</h2>
+                    <p>我們全面的FAQ涵蓋您的所有問題，從適合度到恢復，提供清晰的專家資訊。</p>
+                    <a href="contact.html" class="btn">免費諮詢</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- <div class="hero-nav" id="heroNav"></div> -->
+    </section>
+
+    <!-- FAQ分類 -->
+    <section class="faq-categories">
+        <div class="container">
+            <div class="enhanced-section-header">
+                <span class="section-badge">FAQ指南</span>
+                <h1>您需要知道的一切</h1>
+                <p>獲得關於毛髮修復手術、恢復、效果等所有問題的答案</p>
+            </div>
+            
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">全部</button>
+                <button class="category-tab" data-category="general">一般</button>
+                <button class="category-tab" data-category="procedure">手術</button>
+                <button class="category-tab" data-category="recovery">恢復</button>
+                <button class="category-tab" data-category="results">效果</button>
+                <button class="category-tab" data-category="cost">費用</button>
+                <button class="category-tab" data-category="international">國際患者</button>
+            </div>
+            
+            <!-- 一般FAQ -->
+            <div class="faq-category" id="general">
+                <div class="faq-item active">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>什麼是植髮？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        植髮是一種手術程序，將健康的毛囊從供體區域（通常是頭部後方和兩側）移植到脫髮區域。這些移植的頭髮具有遺傳抗禿性，將在您的餘生中自然生長。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>脫髮的原因是什麼？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        最常見的原因是雄激素性脫髮（男性或女性型禿頂），這是遺傳和激素因素造成的。其他原因包括壓力、醫療狀況、藥物、營養缺乏和老化。在您的諮詢期間，我們將幫助確定您特定脫髮的原因。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>誰是植髮的理想候選人？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        理想候選人是脫髮穩定、有足夠供體頭髮、期望現實且整體健康狀況良好的男性和女性。我們建議等待脫髮穩定後再考慮移植。我們將在免費諮詢期間評估您的適合度。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>FUE和FUT有什麼區別？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        FUE（毛囊單位提取）涉及提取個別毛囊，留下微小的點狀傷口，癒合迅速。FUT（毛囊單位移植）則切除一條組織，然後將其分成移植物。我們主要使用先進的微針FUE技術，以實現最小疤痕和更快恢復。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>手術會痛嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        不會！我們使用局部麻醉完全麻醉頭皮。大多數患者報告在手術過程中幾乎沒有不適感。您可以看電影、聽音樂，甚至在我們工作時小憩。
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 手術FAQ -->
+            <div class="faq-category" id="procedure">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>手術需要多長時間？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        手術持續時間取決於移植的毛囊單位數量。通常需要4-8小時。我們將在諮詢期間根據您的具體治療計劃給出精確估計。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>手術期間我會保持清醒嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        是的，您會保持清醒但完全舒適。我們使用局部麻醉麻醉您的頭皮。您可以看電視、聽音樂、休息，甚至在手術期間睡覺。我們的團隊將確保您全程舒適。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>什麼是微針技術？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        我們的專利微針技術使用專門的植入筆，允許360°方向控制，以實現自然的頭髮生長模式。切口更小（0.6-1.0mm），導致更快恢復、更少創傷和更高的毛囊存活率。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>我需要剃光頭嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        不一定！我們提供創新的不剃髮植髮選項。我們可以在諮詢期間討論您的偏好，並為您的特定情況推薦最佳方法。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>諮詢期間會發生什麼？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        在您的免費諮詢期間，我們將評估您的脫髮情況，討論您的目標，解釋您的選擇，制定個人化治療計劃，並回答您的所有問題。我們還將提供透明的費用估算。
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 恢復FAQ -->
+            <div class="faq-category" id="recovery">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>恢復期有多長？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        使用我們的微針FUE技術，大多數患者在1-3天內可以返回辦公室工作。完全癒合需要大約1-2周。我們將為您提供詳細的術後護理指導，確保順利恢復。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>我什麼時候可以洗頭？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        使用我們先進的微針技術，大多數患者在手術後24小時內可以輕輕洗頭。我們將在術後護理期間向您展示正確的洗頭技巧。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>我什麼時候可以運動？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        我們建議在前10-14天避免劇烈運動。3天后可以進行輕度散步。我們將根據您的手術和癒合進展提供具體指導方針。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>會有疤痕嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        使用我們的微針FUE技術，疤痕極少。微小的點狀傷口完全癒合後幾乎無法察覺，尤其是當頭髮重新生長後。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>需要什麼術後護理？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        我們將為您提供詳細的術後護理指南，包括如何洗頭、使用什麼藥物、避免哪些活動以及後續預約。如果您在恢復期間有任何問題，我們的團隊隨時提供幫助。
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 效果FAQ -->
+            <div class="faq-category" id="results">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>我什麼時候可以看到效果？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        您將在3-4個月開始看到新頭髮生長。通常在6個月時可以看到明顯進展，最大效果在手術後12-18個月達到。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>效果是永久性的嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        是的！移植的頭髮取自具有遺傳抗脫髮特性的區域。這些頭髮將在您的餘生中繼續自然生長。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>效果看起來自然嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        當然！我們的醫師專門研究創造自然外觀的髮際線，並使用360°方向控制實現完全自然的生長模式。我們還密切關注密度和分布，以實現最自然的外觀。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>毛囊存活率是多少？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        使用我們的先進技術和謹慎處理毛囊，我們實現了95%或更高的毛囊存活率。這顯著高於傳統方法。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>我可以進行多於一次手術嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        是的！許多患者選擇進行第二次手術以增加密度或覆蓋範圍。如果您有足夠的供體頭髮，多次手術是完全安全有效的。
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 費用FAQ -->
+            <div class="faq-category" id="cost">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>植髮費用是多少？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        費用取決於所需的毛囊單位數量和您的具體治療計劃。我們在免費諮詢期間提供透明定價，並提供靈活的付款選項。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>你們提供分期付款計劃嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        是的！我們提供靈活的分期付款計劃，使您的毛髮修復更負擔得起。我們將在諮詢期間討論您的選擇。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>價格包含哪些內容？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        我們的價格包括手術本身、所需的所有藥物、後續預約和術後護理支持。我們將在諮詢期間提供完整的費用明細。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>植髮是否保險覆蓋？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        在大多數情況下，植髮被認為是 elective cosmetic procedure，不保險覆蓋。然而，您應該與您的保險提供商核對您的特定政策。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>諮詢是免費的嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        是的！所有諮詢都是完全免費的，無任何義務。我們希望您擁有做出最佳決策所需的所有資訊。
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 國際患者FAQ -->
+            <div class="faq-category" id="international">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>你們治療國際患者嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        當然！我們歡迎來自世界各地的患者。我們有英語工作人員和專門為國際患者提供的服務。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>我可以在線諮詢嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        是的！我們為國際患者提供免費在線諮詢。通過微信或WhatsApp聯繫我們安排您的虛擬諮詢。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>我需要在中國停留多久？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        我們建議停留3-7天進行手術和初步後續護理。我們將幫助您計劃行程，並在需要時安排住宿。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>你們協助安排旅行嗎？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        是的！我們可以協助安排住宿、機場接送，並為您的行程提供指導。我們將使您的訪問盡可能順利舒適。
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>你們說什麼語言？</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        我們流利地說英語，我們的許多工作人員也會說其他語言。我們將確保您在與我們的整個旅程中都有清晰的溝通。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 快速事實 -->
+    <section class="quick-facts-section">
+        <div class="container">
+            <div class="enhanced-section-header">
+                <span class="section-badge">快速事實</span>
+                <h2>一目了然的重要資訊</h2>
+                <p>了解我們毛髮修復過程的關鍵細節</p>
+            </div>
+            <div class="quick-facts-grid">
+                <div class="quick-fact-card primary">
+                    <div class="fact-icon-wrapper">
+                        <i class="fas fa-stopwatch"></i>
+                    </div>
+                    <div class="fact-content">
+                        <span class="fact-number">4-8小時</span>
+                        <h4>手術時間</h4>
+                        <p>取決於移植的毛囊單位數量</p>
+                    </div>
+                </div>
+                <div class="quick-fact-card">
+                    <div class="fact-icon-wrapper">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="fact-content">
+                        <span class="fact-number">1-3天</span>
+                        <h4>重返工作</h4>
+                        <p>大多數患者可以迅速恢復辦公室工作</p>
+                    </div>
+                </div>
+                <div class="quick-fact-card">
+                    <div class="fact-icon-wrapper">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="fact-content">
+                        <span class="fact-number">3-4個月</span>
+                        <h4>初步效果</h4>
+                        <p>新頭髮開始可見生長</p>
+                    </div>
+                </div>
+                <div class="quick-fact-card">
+                    <div class="fact-icon-wrapper">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="fact-content">
+                        <span class="fact-number">12-18個月</span>
+                        <h4>完整效果</h4>
+                        <p>實現完整的毛髮修復</p>
+                    </div>
+                </div>
+                <div class="quick-fact-card">
+                    <div class="fact-icon-wrapper">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="fact-content">
+                        <span class="fact-number">95%+</span>
+                        <h4>毛囊存活率</h4>
+                        <p>我們的先進技術確保高成功率</p>
+                    </div>
+                </div>
+                <div class="quick-fact-card">
+                    <div class="fact-icon-wrapper">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="fact-content">
+                        <span class="fact-number">永久</span>
+                        <h4>效果</h4>
+                        <p>移植的頭髮終生存在</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 術前術後展示 -->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>真實效果</h2>
+                <div class="gold-divider"></div>
+                <p>查看我們患者取得的驚人變身效果</p>
+            </div>
+            <div class="gallery-grid" id="beforeAfterGallery">
+                <div class="gallery-item">
+                    <img src="women/women-15.jpg" alt="女性頭髮">
+                    <div class="gallery-overlay">
+                        <h4>自然外觀</h4>
+                        <p>專業毛髮修復</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="women/women-3.jpg" alt="女性頭髮">
+                    <div class="gallery-overlay">
+                        <h4>完美密度</h4>
+                        <p>傑出效果</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="manHairline/manHairline-14.jpg" alt="男性髮際線">
+                    <div class="gallery-overlay">
+                        <h4>驚人變身</h4>
+                        <p>術前術後對比</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Eyebrow/Eyebrow-2.jpg" alt="眉毛">
+                    <div class="gallery-overlay">
+                        <h4>自然效果</h4>
+                        <p>真實患者變身</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="women/women-16.jpg" alt="女性頭髮">
+                    <div class="gallery-overlay">
+                        <h4>完美變身</h4>
+                        <p>改變人生的效果</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="manBald/manBald-21.jpg" alt="男性禿頂">
+                    <div class="gallery-overlay">
+                        <h4>顯著改善</h4>
+                        <p>術前術後照片</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 醫患合照 -->
+    <section class="technology">
+        <div class="container">
+            <div class="section-title">
+                <h2>快樂患者</h2>
+                <div class="gold-divider"></div>
+                <p>與滿意患者一起捕捉的珍貴時刻</p>
+            </div>
+            <div class="photos-grid" id="doctorPatientPhotos">
+                <div class="photo-item">
+                    <img src="Photos/Photos-73.jpg" alt="患者照片1">
+                    <div class="photo-caption">
+                        <h4>快樂患者</h4>
+                        <p>成功手術後與我們醫療團隊合影</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <img src="Photos/Photos-37.jpg" alt="患者照片2">
+                    <div class="photo-caption">
+                        <h4>感恩患者</h4>
+                        <p>與我們醫師一起慶祝出色效果</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <img src="Photos/Photos-24.jpg" alt="患者照片3">
+                    <div class="photo-caption">
+                        <h4>成功故事</h4>
+                        <p>另一位滿意患者分享他們的喜悅</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <img src="Photos/Photos-45.jpg" alt="患者照片4">
+                    <div class="photo-caption">
+                        <h4>笑容恢復</h4>
+                        <p>出院前與我們專科醫師合影</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <img src="Photos/Photos-23.jpg" alt="患者照片5">
+                    <div class="photo-caption">
+                        <h4>自然外觀恢復</h4>
+                        <p>術後與陳醫師合影的快樂患者</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <img src="Photos/Photos-70.jpg" alt="患者照片6">
+                    <div class="photo-caption">
+                        <h4>人生改變</h4>
+                        <p>興奮的患者展示他們的新造型</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <img src="Photos/Photos-65.jpg" alt="患者照片7">
+                    <div class="photo-caption">
+                        <h4>信心恢復</h4>
+                        <p>患者對他們的變身感到高興</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <img src="Photos/Photos-55.jpg" alt="患者照片8">
+                    <div class="photo-caption">
+                        <h4>新旅程開始</h4>
+                        <p>患者以驚人效果重新出發</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 患者評價 -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>患者怎麼說</h2>
+                <div class="gold-divider"></div>
+                <p>來自世界各地滿意患者的聲音</p>
+            </div>
+            <div class="testimonials-grid" id="testimonials">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"在做植髮前我超級緊張，但看完這裡的植髮注意事項後完全放心了！植髮恢復期比我預期短很多，三天就能上班了！"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">CZ</div>
+                        <div class="testimonial-info">
+                            <h4>陳志明</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> 中國台灣</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"植髮前我對恢復期和可能副作用有很多疑問，在Google上搜尋了很多相關問題。這個FAQ頁面解答了我所有疑慮！術後護理指南非常詳細準確，讓我很安心地完成手術。"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">黃美</div>
+                        <div class="testimonial-info">
+                            <h4>黃美玲</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> 馬來西亞</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"最擔心植髮後遺症會不會很嚴重，結果這個FAQ解釋得非常清楚！實際術後只有輕微腫脹，完全沒有想像中的那麼可怕！"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">HW</div>
+                        <div class="testimonial-info">
+                            <h4>何志強</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> 中國澳門</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"在Bing搜尋了超多關於植髮恢復期的問題，這個FAQ比我看到的任何其他資料都詳細！尤其是術後護理的指導，非常實用！"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">CYW</div>
+                        <div class="testimonial-info">
+                            <h4>吳美芳</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> 新加坡</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"關於毛囊存活率和費用的疑問都在這裡找到答案了！FAQ的內容非常專業全面，讓我對整個植髮流程有了清楚的了解！"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">CW</div>
+                        <div class="testimonial-info">
+                            <h4>陳偉文</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> 中國香港</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"植髮前看了好多遍這個FAQ！從FUE和FUT的區別到植髮恢復期每個階段會發生什麼事，都寫得很詳細。術後效果果然和說的一樣！"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">LZ</div>
+                        <div class="testimonial-info">
+                            <h4>李宗偉</h4>
+                            <p><i class="fas fa-map-marker-alt"></i> 馬來西亞</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 醫院環境 -->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>診所環境</h2>
+                <div class="gold-divider"></div>
+                <p>看看您的變身將在哪裡發生</p>
+            </div>
+            <div class="hospital-grid" id="hospitalGallery">
+                <div class="hospital-item">
+                    <img src="Hospital/Hospital-73.jpg" alt="醫院1">
+                    <div class="hospital-caption">
+                        <h4>恢復區</h4>
+                        <p>舒適術後空間</p>
+                    </div>
+                </div>
+                <div class="hospital-item">
+                    <img src="Hospital/Hospital-3.jpg" alt="醫院2">
+                    <div class="hospital-caption">
+                        <h4>接待處</h4>
+                        <p>溫暖歡迎入口</p>
+                    </div>
+                </div>
+                <div class="hospital-item">
+                    <img src="Hospital/Hospital-20.jpg" alt="醫院3">
+                    <div class="hospital-caption">
+                        <h4>現代診所</h4>
+                        <p>最先進的設施</p>
+                    </div>
+                </div>
+                <div class="hospital-item">
+                    <img src="Hospital/Hospital-52.jpg" alt="醫院4">
+                    <div class="hospital-caption">
+                        <h4>舒適等候區</h4>
+                        <p>在高級休息室放鬆</p>
+                    </div>
+                </div>
+                <div class="hospital-item">
+                    <img src="Hospital/Hospital-48.jpg" alt="醫院5">
+                    <div class="hospital-caption">
+                        <h4>手術室</h4>
+                        <p>無菌先進設備</p>
+                    </div>
+                </div>
+                <div class="hospital-item">
+                    <img src="Hospital/Hospital-18.jpg" alt="醫院6">
+                    <div class="hospital-caption">
+                        <h4>諮詢室</h4>
+                        <p>私密專業空間</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- 複製通知 -->
+    <div class="copy-notification" id="copyNotification">
+        <i class="fas fa-check-circle"></i>
+        <span id="copyText">複製成功！</span>
+    </div>
+
+    <!-- 聯絡我們 -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>聯絡我們</h2>
+                <div class="gold-divider"></div>
+                <p>點擊複製聯絡方式</p>
+            </div>
+            <div class="contact-items" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px;">
+                <div class="contact-item clickable" style="background: #2c3e50; color: white; padding: 40px 30px; border-radius: 30px; text-align: center; transition: all 0.3s;" onclick="copyToClipboard('15810155700', 'WeChat')">
+                    <i class="fab fa-weixin" style="font-size: 42px; color: #e74c3c; margin-bottom: 20px; display: block;"></i>
+                    <h4>微信</h4>
+                    <p>15810155700</p>
+                </div>
+                <div class="contact-item clickable" style="background: #2c3e50; color: white; padding: 40px 30px; border-radius: 30px; text-align: center; transition: all 0.3s;" onclick="copyToClipboard('+86 13730143529', 'WhatsApp')">
+                    <i class="fab fa-whatsapp" style="font-size: 42px; color: #e74c3c; margin-bottom: 20px; display: block;"></i>
+                    <h4>WhatsApp</h4>
+                    <p>+86 13730143529</p>
+                </div>
+                <div class="contact-item clickable" style="background: #2c3e50; color: white; padding: 40px 30px; border-radius: 30px; text-align: center; transition: all 0.3s;" onclick="copyToClipboard('hairtransplant@qq.com', 'Email')">
+                    <i class="fas fa-envelope" style="font-size: 42px; color: #e74c3c; margin-bottom: 20px; display: block;"></i>
+                    <h4>電子郵件</h4>
+                    <p>hairtransplant@qq.com</p>
+                </div>
+                <div class="contact-item qrcode-card" style="background: #2c3e50; color: white; padding: 30px; border-radius: 30px; text-align: center; transition: all 0.3s; position: relative; display: flex; align-items: center; justify-content: center; min-height: 200px;">
+                    <img src="images/erweima.jpg" alt="微信二維碼" style="max-width: 100%; max-height: 180px; object-fit: contain; border-radius: 15px; background: white; padding: 10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>服務項目</h4>
+                    <ul>
+                        <li><a href="hairline-transplant.html">髮際線移植</a></li>
+                        <li><a href="hair-thickening.html">頭髮加密</a></li>
+                        <li><a href="baldness-restoration.html">禿頂修復</a></li>
+                        <li><a href="eyebrow-transplant.html">眉毛移植</a></li>
+                        <li><a href="beard-transplant.html">鬍鬚移植</a></li>
+                        <li><a href="body-hair-transplant.html">體毛移植</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>脫髮教育</h4>
+                    <ul>
+                        <li><a href="hair-loss-treatment.html">脫髮治療</a></li>
+                        <li><a href="hair-care.html">頭髮護理</a></li>
+                        <li><a href="minoxidil.html">米諾地爾</a></li>
+                        <li><a href="finasteride.html">非那雄胺</a></li>
+                        <li><a href="male-hair-loss-guide.html">男性脫髮指南</a></li>
+                        <li><a href="female-hair-loss-guide.html">女性脫髮指南</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>植髮教育</h4>
+                    <ul>
+                        <li><a href="hair-transplant-cost.html">植髮費用</a></li>
+                        <li><a href="fue-hair-transplant.html">FUE植髮</a></li>
+                        <li><a href="fut-hair-transplant.html">FUT植髮</a></li>
+                        <li><a href="no-shave-hair-transplant.html">不剃髮植髮</a></li>
+                        <li><a href="hair-transplant-process.html">植髮流程</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>快速連結</h4>
+                    <ul>
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="about.html">關於我們</a></li>
+                        <li><a href="services.html">服務項目</a></li>
+                        <li><a href="technology.html">技術介紹</a></li>
+                        <li><a href="doctors.html">醫師團隊</a></li>
+                        <li><a href="cases.html">案例展示</a></li>
+                        <li><a href="faq.html">常見問題</a></li>
+                        <li><a href="contact.html">聯絡我們</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2006-2024 中國植髮醫院。保留所有權利。</p>
+                    <p class="footer-details">微針植髮技術先驅 | 全球30+直營診所</p>
+                    <p class="footer-disclaimer">免責聲明：本網站的資訊僅供教育目的，不構成醫療建議。請諮詢合格的醫療保健專業人員獲取個人化治療建議。</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <!-- Contact Form Script -->
+    <script src="https://www.zhifazhifa.com/sendemail/form2026.js"></script>
+    <script>
+    window.ZF_FORM_CONFIG = {
+        wechat: "15810155700",
+        qrcode: { enable: false, src: "/images/erweima.jpg" },
+        display: {
+            pcFloat: true,
+            mobileMode: 'mini'
+        },
+        wechatRow: {
+            enable: false
+        },
+        language: {
+            enable: true,
+            showSwitch: false,
+            default: "zh-tw"
+        }
+    };
+    </script>
+</body>
+</html>
