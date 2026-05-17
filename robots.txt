@@ -1,0 +1,11 @@
+# Barley Hair Transplant - Robots.txt
+# https://hant.barleyhair.com
+
+User-agent: *
+Allow: /
+
+# Disallow backup and sensitive files
+Disallow: /index_original_backup.html
+
+# Sitemap location
+Sitemap: https://hant.barleyhair.com/sitemap.xml
